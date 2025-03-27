@@ -1,4 +1,4 @@
 site_name: Accelerating Hash Joins on GPUs for OLAP Workloads
-site_url: https://mydomain.org/mysite
+site_url: https://15618-cuda-hash-join.github.io/project-docs
 theme:
   name: material
