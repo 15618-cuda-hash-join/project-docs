@@ -69,8 +69,6 @@ We will choose Linux with NVIDIA GPUs with modern CUDA support as our platforms.
 
 # Schedule
 
-- Produce a schedule for your project. **Your schedule should have at least one item to do per week**. List what you plan to get done each week from now until the parallelism competition in order to meet your project goals. Keep in mind that due to other classes, you’ll have more time to work some weeks than others (work that into the schedule). You will need to re-evaluate your progress at the end of each week and update this schedule accordingly. Note the intermediate milestone deadline is April 15th. In your schedule we encourage you to be precise as precise as possible. It’s often helpful to work backward in time from your deliverables and goals, writing down all the little things you’ll need to do (establish the dependencies).
-
 | Date | Task |
 | --- | --- |
 | Mar 27 - April 2 | Build the framework supporting query parsing, data loading and benchmarking. |
