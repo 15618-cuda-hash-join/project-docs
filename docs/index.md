@@ -43,12 +43,6 @@ GPU memory is limited. Even on a cutting-edge H100, its memory would be 80GB. It
 
 # Resources
 
-- Describe the resources (type of computers, starter code, etc.) you will use.
-What code base will you start from? Are you starting from scratch or using an existing
-piece of code? Is there a book or paper that you are using as a reference (if so, provide a
-citation)? Are there any other resources you need, but haven’t figured out how to obtain
-yet? Could you benefit from access to any special machines?
-
 We will start codebase with libraries for GPU data structure and algorithms provided by NVIDIA [1, 2], such as hash table implementations in [cuCollections](https://github.com/NVIDIA/cuCollections), and join algorithms in [cuDF](https://github.com/rapidsai/cudf). We also want to incorporate an SQL frontend (Apache Calcite, DuckDB, PostgreSQL) which transforms SQL queries into physical plans.
 
 From our side, we will implement data loader into the GPU memory and GPU kernels for join evaluation from scratch. Customized kernels offer a more degree of freedom and enable further optimizations. Besides, we will consult to a previous overview [3] of GPU accelerated database, looking for hints and insights on GPU database execution.
