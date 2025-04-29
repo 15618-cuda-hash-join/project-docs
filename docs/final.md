@@ -1,3 +1,3 @@
 # Final Report
 
-[Final Report](docs/15618_project_report.pdf)
+[Final Report](https://github.com/15618-cuda-hash-join/project-docs/blob/main/docs/15618_project_report.pdf)
